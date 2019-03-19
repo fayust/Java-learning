@@ -1,4 +1,4 @@
-//изменено 23
+//изменено 45
 public class Bird
 {
     public int weight;
