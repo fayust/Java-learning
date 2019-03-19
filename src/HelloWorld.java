@@ -1,3 +1,5 @@
+import Sortings.*;
+
 //public class HelloWorld {  }
 class TestProject
 {
@@ -23,10 +25,24 @@ class TestProject
         str4.OutputMethod();
 
         //Упражнение5
+        System.out.println("Упражнение 5");
         Bird birdy = new Bird(45,"red");
         birdy.fly(" In the sky");
         System.out.println(birdy.FlyBack(21));
 
+        //Упражнение6 Пузырьковая сортировка через методы класса
+        System.out.println("Упражнение 6 Пузырьковая сортировка через методы класса");
+         SortingBubble srt = new SortingBubble(6);
+         srt.insertToArr(45);
+         srt.insertToArr(67);
+         srt.insertToArr(34);
+         srt.insertToArr(13);
+         srt.insertToArr(87);
+         srt.insertToArr(33);
+
+         srt.printing();
+         srt.Sorter();
+         srt.printing();
     }
 
     // Методы Упражнения 3
