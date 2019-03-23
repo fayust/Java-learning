@@ -1,5 +1,8 @@
 import Sortings.*;
 
+import java.util.Arrays;
+import java.lang.Math;
+
 //public class HelloWorld {  }
 class TestProject
 {
@@ -30,7 +33,7 @@ class TestProject
         birdy.fly(" In the sky");
         System.out.println(birdy.FlyBack(21));
 
-        //Упражнение6 Пузырьковая сортировка через методы класса
+        //Упражнение 6 Пузырьковая сортировка через методы класса
         System.out.println("Упражнение 6 Пузырьковая сортировка через методы класса");
          SortingBubble srt = new SortingBubble(6);
          srt.insertToArr(45);
@@ -39,14 +42,40 @@ class TestProject
          srt.insertToArr(13);
          srt.insertToArr(87);
          srt.insertToArr(33);
-
          srt.printing();
          srt.Sorter();
          srt.printing();
+
+
+        //Упражнение 7 Слияние Массивов
+        System.out.println("Упражнение 7 Слияние Массивов");
+        ArrayMerge process = new ArrayMerge();
+        int[] rsl = process.ArrMerge(
+                new int[] {1, 2, 15, 67},
+                new int[] {3, 4, 6, 78, 79}
+        );
+        System.out.println(Arrays.toString(rsl));
+
+        //Упражнение 8 Сортировка Слиянием
+        System.out.println("Упражнение 8 Сортировка Слиянием");
+        SortingMerge process1 = new SortingMerge();
+        int[] arr = new int[] {5,-2, 9, 8, -16};
+        int[] result = process1.SortMerge(arr);
+        System.out.println(Arrays.toString(result));
+
+
+        //Упражнение 9 Математические операции  и возврат нескольких значений через класс
+        System.out.println("Упражнение 9 Математические операции");
+        Figure Figa = new Figure("Circle");
+        String fstName = Figa.gotName();
+        double Area = Figa.CircleArea(7);
+
+        System.out.printf("Сначала: %s, площадь%f",fstName, Area);
+
     }
 
     // Методы Упражнения 3
-    //
+
     void start()
     {
         String s1 = "slip";
@@ -128,10 +157,8 @@ class OutString2
 
 }
 
-class OutString4
-{
-    public void OutputMethod()
-    {
+class OutString4 {
+    public void OutputMethod() {
         String resOne = "" + 2 + 3;    // 23  здесь первый аргумент строковый
 // поэтому первая операция приводится автом. к строке,  и вторая тоже
         String resTwo = "" + (2 + 3);  // 5
@@ -147,7 +174,7 @@ class OutString4
         // деления двух чисел
         double a = 8;
         double b = 4.4;
-        System.out.println(a/b);
+        System.out.println(a / b);
 
         //Объявить переменную типа char и присвоить ей значение 100.
         // Вывести на печать эту переменную и проанализировать результат.
@@ -161,6 +188,33 @@ class OutString4
 
     }
 }
+
+class Figure{
+    private String name;
+    private double ran = RandomNumber();
+
+
+    public Figure(String name){
+        this.name = name;
+    }
+
+    public String gotName(){
+        return this.name;
+    }
+
+
+
+    public double CircleArea(double addy){
+        double Area = Math.PI * Math.pow(this.ran, 2);
+        Double LineArea = 2*Math.PI*this.ran+addy;
+        return Area;
+    }
+
+    final static double RandomNumber(){
+        return Math.random();
+    }
+}
+
 
 
 
