@@ -1,13 +1,20 @@
 import Sortings.*;
+import Collections.*;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.lang.Math;
+import java.util.List;
+import java.util.Scanner;
 
 //public class HelloWorld {  }
 class TestProject
 {
     public static void main(String [] args)
     {
+
+        System.out.println((new Test2("name").getHello() instanceof String));
+
         //Упражнение1
         OutString1 str1 = new OutString1();
         str1.OutputMethod();
@@ -70,8 +77,52 @@ class TestProject
         String fstName = Figa.gotName();
         double Area = Figa.CircleArea(7);
 
-        System.out.printf("Сначала: %s, площадь%f",fstName, Area);
+        System.out.printf("Сначала: %s, площадь%f \n",fstName, Area);
 
+
+        //Упражнение  10  Считываем цифры с консоли и оперируем листом
+        /*
+        ListTask1 lt = new ListTask1();
+        List<Integer> numList = new ArrayList<>();
+
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextInt()) {
+            numList.add(sc.nextInt());
+        }
+       lt.ListOperation1(numList);
+        */
+
+
+        //Упражнение  11  Считываем с консоли и оперируем листом
+ /*
+        ListTask2 lt1 = new ListTask2();
+        //считываем с консоли
+        Scanner sc1 = new Scanner(System.in);
+        //считать строку целиком.    .next() считать лишь одно слово
+        String words = sc1.nextLine();
+        lt1.ListOperation2(words);
+*/
+
+
+        //Упражнение  12
+        deque1 dq = new deque1();
+        dq.operate();
+
+        //Упражнение  13
+        //dq.operate13();
+
+        //Упражнение  14
+        //dq.operate14();
+
+        //Упражнение  15
+        //dq.operate15();
+
+
+        //Упражнение 16 Сортировка Быстрая
+        System.out.println("\n\n Упражнение 16 Сортировка Быстрая");
+        int[] arr1 = new int[] {5,-2};
+        SortingQuick.quickSort(arr1, 0, arr1.length-1);
+        System.out.println(Arrays.toString(arr1));
     }
 
     // Методы Упражнения 3
@@ -214,6 +265,20 @@ class Figure{
         return Math.random();
     }
 }
+
+class Test2 {
+
+    private String name;
+
+    private String hello;
+
+    public Test2(String name) { this.name = name; }
+
+    public String getHello() { return hello; }
+
+}
+
+
 
 
 

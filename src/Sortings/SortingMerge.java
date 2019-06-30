@@ -88,7 +88,5 @@ public class SortingMerge {
 
     int a = Integer.parseInt(read.readLine());
     int b = Integer.parseInt(read.readLine());
-    int c = Integer.parseInt(read.readLine());
-    int d = Integer.parseInt(read.readLine());
-    int e = Integer.parseInt(read.readLine());
+
     */
