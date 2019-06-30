@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37a63163-6141-4a23-b2bb-6dd3204e498d" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TestProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Bird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Bird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Figure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Figure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/META-INF/TestProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/OutString1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/OutString1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/OutString2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/OutString2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/OutString4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/OutString4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Sortings/ArrayMerge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Sortings/ArrayMerge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingBubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingBubble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingMerge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingMerge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingQuick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/Sortings/SortingQuick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestProject/TestProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TestProject/TestProject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sortings/SortingMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sortings/SortingMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sortings/SortingQuick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sortings/SortingQuick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorld.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collections/deque1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,11 +106,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DPSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="264">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -183,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Sortings/Sorting1.java" />
         <option value="$PROJECT_DIR$/src/Sortings/SortingBubble.java" />
         <option value="$PROJECT_DIR$/src/Sortings/SortingBubble1.java" />
         <option value="$PROJECT_DIR$/src/Collections/deque1.java" />
@@ -205,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/ModelDuck.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/MiniDuckSimulator.java" />
         <option value="$PROJECT_DIR$/src/DPIterator/IteratorApp.java" />
-        <option value="$PROJECT_DIR$/src/DPSingleton.java" />
         <option value="$PROJECT_DIR$/src/DPSingleton/SingletonMultiThread.java" />
         <option value="$PROJECT_DIR$/src/DPSingleton/DPSingleton.java" />
         <option value="$PROJECT_DIR$/src/DPTemplateMethod.java" />
@@ -234,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/Collections/Comparator/SortList.java" />
         <option value="$PROJECT_DIR$/src/Collections/Comparator/SortTree.java" />
         <option value="$PROJECT_DIR$/src/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/DPSingleton.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -430,7 +417,7 @@
       <workItem from="1559824791667" duration="2425000" />
       <workItem from="1559905675443" duration="2243000" />
       <workItem from="1560448550794" duration="566000" />
-      <workItem from="1561915786719" duration="1244000" />
+      <workItem from="1561915786719" duration="2921000" />
     </task>
     <servers />
   </component>
@@ -467,12 +454,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86710000" />
+    <option name="totallyTimeSpent" value="88387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4927302" visible="true" weight="0.1401919" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4927302" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" sideWeight="0.5072698" side_tool="true" visible="true" weight="0.1401919" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +474,7 @@
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48987207" weight="0.32683983" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37899786" side_tool="true" weight="0.29577464" />
@@ -529,13 +517,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sortings/SortingBubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Program.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -882,8 +863,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DPSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
